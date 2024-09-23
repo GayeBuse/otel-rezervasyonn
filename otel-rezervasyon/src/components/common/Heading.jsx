@@ -7,4 +7,4 @@ function Heading() {
   return <>Heading</>;
 }
 
-export default App;
+export default Heading;

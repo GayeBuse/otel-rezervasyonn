@@ -7,4 +7,4 @@ function Sociallcons() {
   return <>Sociallcons</>;
 }
 
-export default App;
+export default Sociallcons;

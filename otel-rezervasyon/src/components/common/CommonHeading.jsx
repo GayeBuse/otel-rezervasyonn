@@ -7,4 +7,4 @@ function CommonHeading() {
   return <>CommonHeading</>;
 }
 
-export default App;
+export default CommonHeading;

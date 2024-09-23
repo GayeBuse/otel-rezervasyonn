@@ -5,4 +5,4 @@ function Footer() {
   return <>Footer</>;
 }
 
-export default App;
+export default Footer;

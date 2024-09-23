@@ -7,4 +7,4 @@ function Header() {
   return <>Header</>;
 }
 
-export default App;
+export default Header;
