@@ -1,20 +1,21 @@
 import AboutUs from "./AboutUs";
-import Booking from "./BookingPage";
-import Team from "./TeamPage";
-import Testimonial from "./TestimonialPage";
-import Contact from "./ContactPage";
+import BookingPage from "./BookingPage";
+import TeamPage from "./TeamPage";
+import TestimonialPage from "./TestimonialPage";
+import ContactPage from "./ContactPage";
 import PageNotFound from "./PageNotFound";
-import Room from "./RoomPage";
-import Service from "./ServicePage";
+import RoomPage from "./RoomPage";
+import ServicePage from "./ServicePage";
 import Home from "../components/home/Home";
 export {
   Home,
-  Booking,
-  Testimonial,
-  Team,
   AboutUs,
-  Contact,
+  BookingPage,
+  TestimonialPage,
+  TeamPage,
+  AboutUs,
+  ContactPage,
   PageNotFound,
-  Room,
-  Service,
+  RoomPage,
+  ServicePage,
 };

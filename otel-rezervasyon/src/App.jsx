@@ -4,20 +4,34 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 import {
   Home,
-  Booking,
+  BookingPage,
   AboutUs,
-  Contact,
+  ContactPage,
   PageNotFound,
-  Room,
-  Service,
-  Team,
-  Testimonial,
+  RoomPage,
+  ServicePage,
+  TeamPage,
+  TestimonialPage,
 } from "./pages/index";
 
 function App() {
   const [count, setCount] = useState(0);
 
-  return <></>;
+  return (
+    <>
+      <div>
+        <Home />
+        <AboutUs />
+        <BookingPage />
+        <TeamPage />
+        <TestimonialPage />
+        <ContactPage />
+        <PageNotFound />
+        <RoomPage />
+        <ServicePage />
+      </div>
+    </>
+  );
 }
 
 export default App;
