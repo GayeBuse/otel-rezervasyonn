@@ -9,7 +9,6 @@ import ServicePage from "./ServicePage";
 import Home from "../components/home/Home";
 export {
   Home,
-  AboutUs,
   BookingPage,
   TestimonialPage,
   TeamPage,
